@@ -1,0 +1,112 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryColorDark</item>
+    </style>
+
+
+    <style name="MyToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#FFFFFF</item>
+    </style>
+
+
+
+    <style name="button">
+        <item name="android:text">GO</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:background">@drawable/bc_button</item>
+    </style>
+
+
+
+
+
+    <style name="webView">
+
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_above">@+id/layout_image</item>
+        <item name="android:layout_below">@+id/layout_address</item>
+
+    </style>
+
+
+    <style name="linearLink">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <style name="editText">
+        <item name="android:text"></item>
+        <item name="android:hint">Enter the address here</item>
+
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:maxLines">1</item>
+
+    </style>
+
+
+    <style name="imageButtonLeft">
+        <item name="android:background">@drawable/bc_button_back</item>
+        <item name="android:layout_marginBottom">5dp</item>
+
+    </style>
+
+    <style name="imageButtonRight">
+        <item name="android:background">@drawable/bc_button_forward</item>
+
+    </style>
+
+    <style name="linearAddressLine">
+        <item name="android:background">@drawable/bc_layout</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:orientation">horizontal</item>
+
+    </style>
+
+    <style name="imageButtonGoogle">
+        <item name="android:background">@drawable/bc_ic_google</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+
+
+    <style name="imageButtonYandex">
+        <item name="android:background">@drawable/bc_ic_yandex</item>
+        <item name="android:layout_marginRight">25dp</item>
+    </style>
+
+    <style name="imageButtonYoutube">
+        <item name="android:background">@drawable/bc_ic_youtube</item>
+        <item name="android:layout_marginRight">25dp</item>
+    </style>
+
+
+    <style name="imageButtonBing">
+        <item name="android:background">@drawable/bc_ic_bing</item>
+    </style>
+
+
+
+    <style name="CustomDialogAnim"  >
+        <item name="android:windowEnterAnimation">@anim/dialog_entrance</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+
+
+
+</resources>

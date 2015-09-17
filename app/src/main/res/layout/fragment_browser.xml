@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/layout_address"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        style="@style/linearAddressLine"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp">
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:id="@+id/imageButtonBack"
+                android:onClick="onClick"
+                style="@style/imageButtonLeft"
+
+                />
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:id="@+id/imageButtonForward"
+                android:onClick="onClick"
+                style="@style/imageButtonRight"/>
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editText"
+            style="@style/editText"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            style="@style/button"
+            android:onClick="onClick" />
+    </LinearLayout>
+
+    <WebView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webView"
+        style="@style/webView"
+        />
+
+    <LinearLayout
+        android:id="@+id/layout_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/linearLink">
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/imageButtonGoogle"
+            android:onClick="onClick"
+            style="@style/imageButtonGoogle"
+            />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:id="@+id/imageButtonYandex"
+            android:onClick="onClick"
+            style="@style/imageButtonYandex"/>
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/imageButtonYoutube"
+            android:onClick="onClick"
+            style="@style/imageButtonYoutube"
+            />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/imageButtonBing"
+            android:onClick="onClick"
+            style="@style/imageButtonBing"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
